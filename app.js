@@ -1,5 +1,9 @@
 $(function() {
-  //alert("jQuery loaded!");
+
+  $('#calculateButton').on("click", function(e) {
+    calculateBMI();
+  });
+
 });
 
 var calculateBMI = function() {
